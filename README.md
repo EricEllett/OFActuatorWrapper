@@ -26,8 +26,7 @@ and its active network security directives:
  * "QUIT"     Disconnects the directive source issuing the directive
  See OFActuator_directives.txt for more information
  
- Please note that some function descriptions were taken directly from 
- OFActuator_directives.txt
+
 
 Usage
 ==========
@@ -42,15 +41,6 @@ wrapper = ActuatorWrapper(<ACTUATOR_IP>, <ACTUATOR_PORT>)
 
 Actuator ip:port defaults to localhost:26795 if not specified
 
-The following are some example uses with directives
-BLOCK
------
-```python
-
-From ActuatorWrapper import ActuatorWrapper
-
-wrapper = ActuatorWrapper(<ACTUATOR_IP>, <ACTUATOR_PORT>)
-
-```
+Directive examples to follow
 
 
