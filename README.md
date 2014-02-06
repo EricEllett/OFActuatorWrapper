@@ -54,7 +54,7 @@ From ActuatorWrapper import ActuatorWrapper
 
 wrapper = ActuatorWrapper(<ACTUATOR_IP>, <ACTUATOR_PORT>)
 d_id = wrapper.block(blockIP="10.0.0.1", dstPort=22)
-#SSH traffic eminating from 10.0.0.1 is now dropped at the SDN switch
+#SSH traffic emanating from 10.0.0.1 is now dropped at the SDN switch
 ...
 
 wrapper.cancel(id=d_id)
